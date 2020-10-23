@@ -1,0 +1,25 @@
+{
+  "name": "nodejs-express-restapi-upload-import-excel-xlsx-to-mysql",
+  "version": "1.0.0",
+  "description": "Nodejs Express RestAPIs Upload Import Excel XLSX File/Data to MySQL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "Nodejs",
+    "Express",
+    "RestAPIs",
+    "Excel",
+    "MySQL"
+  ],
+  "author": "grokonez.com",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "multer": "^1.4.1",
+    "mysql": "^2.16.0",
+    "read-excel-file": "^2.0.7"
+  }
+}
